@@ -8,26 +8,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:quitall
-:quit!
-:set syntax=markdown
-:set syntax=simple
-:setfiletype=markdown
-:filetype
 :qa!
-:help
+:syntax off
+:qa
+:syntax on
+:runtime syntax\markdown.vim
+:color dos
+:quit!
 :colorscheme dos
-:quit
-:colorscheme DOS
-:colorscheme DOS.vim
+:runtime syntax\colortest.vim
+:colorscheme murphy
+:colorscheme morning
+:help
+:quitall!
+:colorscheme koehler
+:colorscheme evening
+:colorscheme elflord
+:colorscheme desert
+:colorscheme delek
+:colorscheme default
 :colorscheme darkblue
-:colorscheme blue
-:mode c4350
-:mode
-:help :colorscheme
-:colorscheme darkbl~1
-:colorscheme dark2
-:colorscheme dark-r~1
 
 # Search String History (newest to oldest):
 
@@ -38,27 +38,37 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	
+""1	LINE	0
+	The mythos of crowns and queens plays heavily in this; 
 "-	CHAR	0
 	alluded to it being
 
 # File marks:
-'0  1  0  C:\SIRENS.MD
-'1  3  0  C:\SIRENS.MD
-'2  1  0  C:\DOC\HELP.TXT
-'3  9  0  C:\DOC\HELP.TXT
-'4  7  12  C:\README.TXT
-'5  28  2  C:\DOC\HELP.TXT
-'6  6  22  C:\README.TXT
-'7  12  0  C:\README.TXT
-'8  14  0  C:\README.TXT
-'9  1  0  C:\README.TXT
+'0  21  77  C:\SIRENS.MD
+'1  50  231  C:\SIRENS.MD
+'2  32  0  C:\SIRENS.MD
+'3  10  0  C:\SIRENS.MD
+'4  8  0  C:\SIRENS.MD
+'5  1  0  C:\SIRENS.MD
+'6  3  19  C:\SIRENS.MD
+'7  15  74  C:\DOC\HELP.TXT
+'8  7  136  C:\SIRENS.MD
+'9  1  0  C:\DOC\HELP.TXT
 
 # Jumplist (newest first):
+-'  21  77  C:\SIRENS.MD
 -'  1  0  C:\SIRENS.MD
+-'  50  231  C:\SIRENS.MD
+-'  32  0  C:\SIRENS.MD
+-'  10  0  C:\SIRENS.MD
+-'  8  0  C:\SIRENS.MD
+-'  3  19  C:\SIRENS.MD
+-'  15  74  C:\DOC\HELP.TXT
+-'  1  0  C:\DOC\HELP.TXT
+-'  7  136  C:\SIRENS.MD
 -'  1  0  C:\README.TXT
--'  3  0  C:\SIRENS.MD
 -'  1  0  C:\DOC\HELP.TXT
 -'  2  0  C:\README.TXT
 -'  9  0  C:\DOC\HELP.TXT
@@ -146,28 +156,25 @@
 -'  5  0  C:\MyDocs\cirque\LandlyLib\sweep.md
 -'  50  233  C:\MyDocs\cirque\LandlyLib\sirens.md
 -'  1  0  C:\MyDocs\cirque\LandlyLib\BeforeStorm.md
--'  1  0  C:\MyDocs\cirque\LandlyLib\2ndpart.md
--'  10  0  C:\soft\vim\_vimrc
--'  4  0  c:\notes.txt
--'  19  75  C:\MYDOCS\CIRQUE\LANDLY~1\sweep2.md
--'  11  157  C:\MYDOCS\CIRQUE\LANDLY~1\sweep2.md
--'  1  0  C:\MyDocs\cirque\LandlyLib\war.md
--'  5  0  C:\MyDocs\cirque\LandlyLib\sirens.md
--'  7  317  C:\MyDocs\cirque\LandlyLib\BeforeStorm.md
 
 # History of marks within files (newest to oldest):
+
+> C:\SIRENS.MD
+	"	21	77
+	^	21	78
+	.	21	78
+	+	3	19
+	+	9	0
+	+	21	78
+
+> C:\DOC\HELP.TXT
+	"	15	74
 
 > C:\README.TXT
 	"	1	0
 	^	6	23
 	.	1	0
 	+	1	0
-
-> C:\SIRENS.MD
-	"	1	0
-
-> C:\DOC\HELP.TXT
-	"	1	0
 
 > C:\DOC\SYNTAX.TXT
 	"	4002	0

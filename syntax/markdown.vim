@@ -8,7 +8,9 @@ if exists("b:current_syntax")
   finish
 endif
 
-runtime! syntax/html.vim
+" Deshabilitado
+" runtime! syntax/html.vim
+runtime! syntax/htmlforMD.vim
 unlet! b:current_syntax
 
 syn sync minlines=10
