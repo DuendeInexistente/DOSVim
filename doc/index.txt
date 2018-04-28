@@ -185,96 +185,132 @@ tag		char	      note action in Normal mode	~
 |CTRL-C|	CTRL-C		   interrupt current (search) command
 |CTRL-D|	CTRL-D		   scroll Down N lines (default: half a screen)
 |CTRL-E|	CTRL-E		   scroll N lines upwards (N lines Extra)
-|CTRL-F|	CTRL-F		1  scroll N screens Forward
-|CTRL-G|	CTRL-G		   display current file name and position
-|<BS>|		<BS>		1  same as "h"
-|CTRL-H|	CTRL-H		1  same as "h"
-|<Tab>|		<Tab>		1  go to N newer entry in jump list
-|CTRL-I|	CTRL-I		1  same as <Tab>
-|<NL>|		<NL>		1  same as "j"
-|CTRL-J|	CTRL-J		1  same as "j"
-		CTRL-K		   not used
-|CTRL-L|	CTRL-L		   redraw screen
-|<CR>|		<CR>		1  cursor to the first CHAR N lines lower
-|CTRL-M|	CTRL-M		1  same as <CR>
-|CTRL-N|	CTRL-N		1  same as "j"
-|CTRL-O|	CTRL-O		1  go to N older entry in jump list
-|CTRL-P|	CTRL-P		1  same as "k"
-		CTRL-Q		   (used for terminal control flow)
-|CTRL-R|	CTRL-R		2  redo changes which were undone with 'u'
-		CTRL-S		   (used for terminal control flow)
-|CTRL-T|	CTRL-T		   jump to N older Tag in tag list
-|CTRL-U|	CTRL-U		   scroll N lines Upwards (default: half a
-				   screen)
-|CTRL-V|	CTRL-V		   start blockwise Visual mode
-|CTRL-W|	CTRL-W {char}	   window commands, see |CTRL-W|
-|CTRL-X|	CTRL-X		2  subtract N from number at/after cursor
-|CTRL-Y|	CTRL-Y		   scroll N lines downwards
-|CTRL-Z|	CTRL-Z		   suspend program (or start new shell)
-		CTRL-[ <Esc>	   not used
-|CTRL-\_CTRL-N| CTRL-\ CTRL-N	   go to Normal mode (no-op)
-|CTRL-\_CTRL-G| CTRL-\ CTRL-G	   go to mode specified with 'insertmode'
-		CTRL-\ a - z	   reserved for extensions
-		CTRL-\ others      not used
-|CTRL-]|	CTRL-]		   :ta to ident under cursor
-|CTRL-^|	CTRL-^		   edit Nth alternate file (equivalent to
-				   ":e #N")
-		CTRL-_		   not used
-
-|<Space>|	<Space>		1  same as "l"
-|!|		!{motion}{filter}
-				2  filter Nmove text through the {filter}
-				   command
-|!!|		!!{filter}	2  filter N lines through the {filter} command
-|quote|		"{a-zA-Z0-9.%#:-"}  use register {a-zA-Z0-9.%#:-"} for next
-				   delete, yank or put (uppercase to append)
-				   ({.%#:} only work with put)
-|#|		#		1  search backward for the Nth occurrence of
-				   the ident under the cursor
-|$|		$		1  cursor to the end of Nth next line
-|%|		%		1  find the next (curly/square) bracket on
-				   this line and go to its match, or go to
-				   matching comment bracket, or go to matching
-				   preprocessor directive.
-|N%|		{count}%	1  go to N percentage in the file
-|&|		&		2  repeat last :s
-|'|		'{a-zA-Z0-9}	1  cursor to the first CHAR on the line with
-				   mark {a-zA-Z0-9}
-|''|		''		1  cursor to the first CHAR of the line where
-				   the cursor was before the latest jump.
-|'(|		'(		1  cursor to the first CHAR on the line of the
-				   start of the current sentence
-|')|		')		1  cursor to the first CHAR on the line of the
-				   end of the current sentence
-|'<|		'<		1  cursor to the first CHAR of the line where
-				   highlighted area starts/started in the
-				   current buffer.
-|'>|		'>		1  cursor to the first CHAR of the line where
-				   highlighted area ends/ended in the current
-				   buffer.
-|'[|		'[		1  cursor to the first CHAR on the line of the
-				   start of last operated text or start of put
-				   text
-|']|		']		1  cursor to the first CHAR on the line of the
-				   end of last operated text or end of put
-				   text
-|'{|		'{		1  cursor to the first CHAR on the line of the
-				   start of the current paragraph
-|'}|		'}		1  cursor to the first CHAR on the line of the
-				   end of the current paragraph
-|(|		(		1  cursor N sentences backward
-|)|		)		1  cursor N sentences forward
-|star|		*		1  search forward for the Nth occurrence of
-				   the ident under the cursor
-|+|		+		1  same as <CR>
-|,|		,		1  repeat latest f, t, F or T in opposite
-				   direction N times
-|-|		-		1  cursor to the first CHAR N lines higher
-|.|		.		2  repeat last change with count replaced with
-				   N
-|/|		/{pattern}<CR>	1  search forward for the Nth occurrence of
-				   {pattern}
-|/<CR>|		/<CR>		1  search forward for {pattern} of last search
+|CTRL-F|	CTRL-F		1  scroll N screens Foim\doc\index.txt
+C:\soft\vim\doc\indent.txt
+C:\soft\vim\doc\if_tcl.txt
+C:\soft\vim\doc\if_sniff.txt
+C:\soft\vim\doc\if_ruby.txt
+C:\soft\vim\doc\if_pyth.txt
+C:\soft\vim\doc\if_perl.txt
+C:\soft\vim\doc\if_ole.txt
+C:\soft\vim\doc\if_mzsch.txt
+C:\soft\vim\doc\if_lua.txt
+C:\soft\vim\doc\if_cscop.txt
+C:\soft\vim\doc\howto.txt
+C:\soft\vim\doc\helphelp.txt
+C:\soft\vim\doc\help.txt
+C:\soft\vim\doc\hebrew.txt
+C:\soft\vim\doc\hangulin.txt
+C:\soft\vim\doc\gui_x11.txt
+C:\soft\vim\doc\gui_w32.txt
+C:\soft\vim\doc\gui_w16.txt
+C:\soft\vim\doc\gui.txt
+C:\soft\vim\doc\ft_sql.txt
+C:\soft\vim\doc\ft_ada.txt
+C:\soft\vim\doc\fold.txt
+C:\soft\vim\doc\filetype.txt
+C:\soft\vim\doc\farsi.txt
+C:\soft\vim\doc\evim.1
+C:\soft\vim\doc\evim-ru.1
+C:\soft\vim\doc\evim-pl.1
+C:\soft\vim\doc\evim-it.1
+C:\soft\vim\doc\evim-fr.1
+C:\soft\vim\doc\eval.txt
+C:\soft\vim\doc\editing.txt
+C:\soft\vim\doc\doctags.c
+C:\soft\vim\doc\digraph.txt
+C:\soft\vim\doc\diff.txt
+C:\soft\vim\doc\develop.txt
+C:\soft\vim\doc\debugger.txt
+C:\soft\vim\doc\debug.txt
+C:\soft\vim\doc\cmdline.txt
+C:\soft\vim\doc\change.txt
+C:\soft\vim\doc\autocmd.txt
+C:\soft\vim\doc\arabic.txt
+C:\soft\vim\delmenu.vim
+C:\soft\vim\csdpmi4b.zip
+C:\soft\vim\compiler\xmlwf.vim
+C:\soft\vim\compiler\xmllint.vim
+C:\soft\vim\compiler\tidy.vim
+C:\soft\vim\compiler\tex.vim
+C:\soft\vim\compiler\tcl.vim
+C:\soft\vim\compiler\splint.vim
+C:\soft\vim\compiler\se.vim
+C:\soft\vim\compiler\rubyunit.vim
+C:\soft\vim\compiler\ruby.vim
+C:\soft\vim\compiler\rst.vim
+C:\soft\vim\compiler\rspec.vim
+C:\soft\vim\compiler\readme.txt
+C:\soft\vim\compiler\pyunit.vim
+C:\soft\vim\compiler\php.vim
+C:\soft\vim\compiler\perl.vim
+C:\soft\vim\compiler\pbx.vim
+C:\soft\vim\compiler\onsgmls.vim
+C:\soft\vim\compiler\neato.vim
+C:\soft\vim\compiler\msvc.vim
+C:\soft\vim\compiler\mips_c.vim
+C:\soft\vim\compiler\mcs.vim
+C:\soft\vim\compiler\jikes.vim
+C:\soft\vim\compiler\javac.vim
+C:\soft\vim\compiler\irix5_c.vim
+C:\soft\vim\compiler\intel.vim
+C:\soft\vim\compiler\icc.vim
+C:\soft\vim\compiler\hp_acc.vim
+C:\soft\vim\compiler\gnat.vim
+C:\soft\vim\compiler\gcc.vim
+C:\soft\vim\compiler\fpc.vim
+C:\soft\vim\compiler\eruby.vim
+C:\soft\vim\compiler\dot.vim
+C:\soft\vim\compiler\decada.vim
+C:\soft\vim\compiler\cucumber.vim
+C:\soft\vim\compiler\cs.vim
+C:\soft\vim\compiler\bdf.vim
+C:\soft\vim\compiler\bcc.vim
+C:\soft\vim\compiler\ant.vim
+C:\soft\vim\colors\zellner.vim
+C:\soft\vim\colors\torte.vim
+C:\soft\vim\colors\slate.vim
+C:\soft\vim\colors\shine.vim
+C:\soft\vim\colors\ron.vim
+C:\soft\vim\colors\readme.txt
+C:\soft\vim\colors\pablo.vim
+C:\soft\vim\colors\murphy.vim
+C:\soft\vim\colors\morning.vim
+C:\soft\vim\colors\koehler.vim
+C:\soft\vim\colors\evening.vim
+C:\soft\vim\colors\elflord.vim
+C:\soft\vim\colors\desert.vim
+C:\soft\vim\colors\delek.vim
+C:\soft\vim\colors\default.vim
+C:\soft\vim\colors\darkblue.vim
+C:\soft\vim\colors\blue.vim
+C:\soft\vim\autoload\zip.vim
+C:\soft\vim\autoload\xml\xsl.vim
+C:\soft\vim\autoload\xml\xsd.vim
+C:\soft\vim\autoload\xml\xhtml11.vim
+C:\soft\vim\autoload\xml\xhtml10t.vim
+C:\soft\vim\autoload\xml\xhtml10s.vim
+C:\soft\vim\autoload\xml\xhtml10f.vim
+C:\soft\vim\autoload\xml\html40t.vim
+C:\soft\vim\autoload\xml\html40s.vim
+C:\soft\vim\autoload\xml\html40f.vim
+C:\soft\vim\autoload\xml\html401t.vim
+C:\soft\vim\autoload\xml\html401s.vim
+C:\soft\vim\autoload\xml\html401f.vim
+C:\soft\vim\autoload\xml\html32.vim
+C:\soft\vim\autoload\vimball.vim
+C:\soft\vim\autoload\tohtml.vim
+C:\soft\vim\autoload\tar.vim
+C:\soft\vim\autoload\readme.txt
+C:\soft\vim\autoload\paste.vim
+C:\soft\vim\autoload\netrw.vim
+C:\soft\vim\autoload\gzip.vim
+C:\soft\vim\autoload\gnat.vim
+C:\soft\vim\autoload\decada.vim
+C:\soft\vim\autoload\ada.vim
+C:\FDOS\links\vim.bat
+C:\FDOS\appinfo\vim.lsm
+arch
 |count|		0		1  cursor to the first char of the line
 |count|		1		   prepend to command to give a count
 |count|		2			"
